@@ -1,6 +1,6 @@
 {% set name = "pbr" %}
-{% set version = "1.10.0" %}
-{% set checksum = "186428c270309e6fdfe2d5ab0949ab21ae5f7dea831eab96701b86bd666af39c" %}
+{% set version = "2.0.0" %}
+{% set checksum = "0ccd2db529afd070df815b1521f01401d43de03941170f8a800e7531faba265d" %}
 
 package:
   name: {{ name }}
@@ -38,9 +38,14 @@ test:
 
 about:
   home: https://launchpad.net/pbr
+  license_file: LICENSE
   license: Apache 2.0
+  license_family: Apache
   summary: Python Build Reasonableness
+  doc_url: https://docs.openstack.org/developer/pbr/
+  dev_url: https://git.openstack.org/cgit/openstack-dev/pbr
 
 extra:
   recipe-maintainers:
     - jakirkham
+    - pmlandwehr
