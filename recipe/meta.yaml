@@ -1,6 +1,6 @@
 {% set name = "pbr" %}
-{% set version = "3.0.1" %}
-{% set checksum = "d7e8917458094002b9a2e0030ba60ba4c834c456071f2d0c1ccb5265992ada91" %}
+{% set version = "3.1.1" %}
+{% set checksum = "05f61c71aaefc02d8e37c0a3eeb9815ff526ea28b3b76324769e6158d7f95be1" %}
 
 package:
   name: {{ name|lower }}
