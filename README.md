@@ -14,9 +14,7 @@ Summary: Python Build Reasonableness
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/pbr-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pbr-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/pbr-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/pbr-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/pbr-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/pbr-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/pbr-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pbr-feedstock)
 
 Current release info
 ====================
