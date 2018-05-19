@@ -14,12 +14,15 @@ Summary: Python Build Reasonableness
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/pbr-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/pbr-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/pbr-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/pbr-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pbr/badges/version.svg)](https://anaconda.org/conda-forge/pbr)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/pbr/badges/downloads.svg)](https://anaconda.org/conda-forge/pbr)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-pbr-green.svg)](https://anaconda.org/conda-forge/pbr) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/pbr.svg)](https://anaconda.org/conda-forge/pbr) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/pbr.svg)](https://anaconda.org/conda-forge/pbr) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/pbr.svg)](https://anaconda.org/conda-forge/pbr) |
 
 Installing pbr
 ==============
