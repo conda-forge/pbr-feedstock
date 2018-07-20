@@ -1,8 +1,8 @@
 {% set name = "pbr" %}
-{% set version = "4.1.0" %}
+{% set version = "4.1.1" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "e0f23b61ec42473723b2fec2f33fb12558ff221ee551962f01dd4de9053c2055" %}
+{% set hash = "754e766b4f4bad3aa68cfd532456298da1aa39375da8748392dbae90860d5f18" %}
 
 package:
   name: {{ name|lower }}
