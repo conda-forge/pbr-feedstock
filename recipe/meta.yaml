@@ -1,8 +1,8 @@
 {% set name = "pbr" %}
-{% set version = "5.4.1" %}
+{% set version = "5.4.2" %}
 {% set bundle = "tar.gz" %}
 {% set hash_type = "sha256" %}
-{% set hash = "0ca44dc9fd3b04a22297c2a91082d8df2894862e8f4c86a49dac69eae9e85ca0" %}
+{% set hash = "9b321c204a88d8ab5082699469f52cc94c5da45c51f114113d01b3d993c24cdf" %}
 
 package:
   name: {{ name|lower }}
@@ -22,7 +22,7 @@ build:
     - pbr = pbr.cmd.main:main
 
 requirements:
-  build:
+  host:
     - python
     - pip
 
