@@ -22,7 +22,7 @@ build:
     - pbr = pbr.cmd.main:main
 
 requirements:
-  build:
+  host:
     - python
     - pip
 
