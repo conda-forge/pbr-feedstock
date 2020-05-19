@@ -118,4 +118,5 @@ Feedstock Maintainers
 
 * [@jakirkham](https://github.com/jakirkham/)
 * [@pmlandwehr](https://github.com/pmlandwehr/)
+* [@tschoonj](https://github.com/tschoonj/)
 
