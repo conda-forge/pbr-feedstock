@@ -1,8 +1,7 @@
 {% set name = "pbr" %}
-{% set version = "5.4.2" %}
+{% set version = "5.4.5" %}
 {% set bundle = "tar.gz" %}
-{% set hash_type = "sha256" %}
-{% set hash = "9b321c204a88d8ab5082699469f52cc94c5da45c51f114113d01b3d993c24cdf" %}
+{% set hash = "07f558fece33b05caf857474a366dfcc00562bca13dd8b47b2b3e22d9f9bf55c" %}
 
 package:
   name: {{ name|lower }}
@@ -11,13 +10,13 @@ package:
 source:
   fn: {{ name }}-{{ version }}.{{ bundle }}
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
-  {{ hash_type }}: {{ hash }}
+  sha256: {{ hash }}
 
 build:
   noarch: python
   number: 0
-  preserve_egg_dir: True
-  script: python -m pip install --no-deps --ignore-installed .
+  preserve_egg_dir: true
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
     - pbr = pbr.cmd.main:main
 
@@ -42,7 +41,7 @@ test:
 about:
   home: https://launchpad.net/pbr
   license_file: LICENSE
-  license: Apache 2.0
+  license: Apache-2.0
   license_family: Apache
   summary: Python Build Reasonableness
   doc_url: https://docs.openstack.org/developer/pbr/
@@ -52,3 +51,4 @@ extra:
   recipe-maintainers:
     - jakirkham
     - pmlandwehr
+    - tschoonj
