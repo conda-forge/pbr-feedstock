@@ -41,7 +41,7 @@ test:
 about:
   home: https://launchpad.net/pbr
   license_file: LICENSE
-  license: Apache 2.0
+  license: Apache-2.0
   license_family: Apache
   summary: Python Build Reasonableness
   doc_url: https://docs.openstack.org/developer/pbr/
