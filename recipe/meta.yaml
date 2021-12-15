@@ -14,9 +14,9 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   preserve_egg_dir: true
-  script: {{ PYTHON }} -m pip install . --no-deps -vv
+  script: "{{ PYTHON }} -m pip install . -vv"
   entry_points:
     - pbr = pbr.cmd.main:main
 
