@@ -35,7 +35,11 @@ test:
     - pbr.cmd
     - pbr.hooks
 
+  requires:
+    - pip
+
   commands:
+    - pip check
     - pbr --help
 
 about:
