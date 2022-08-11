@@ -1,7 +1,7 @@
 {% set name = "pbr" %}
-{% set version = "5.9.0" %}
+{% set version = "5.10.0" %}
 {% set bundle = "tar.gz" %}
-{% set hash = "e8dca2f4b43560edef58813969f52a56cef023146cbb8931626db80e6c1c4308" %}
+{% set hash = "cfcc4ff8e698256fc17ea3ff796478b050852585aa5bae79ecd05b2ab7b39b9a" %}
 
 package:
   name: {{ name|lower }}
