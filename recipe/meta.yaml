@@ -1,7 +1,7 @@
 {% set name = "pbr" %}
-{% set version = "6.1.0" %}
+{% set version = "6.1.1" %}
 {% set bundle = "tar.gz" %}
-{% set hash = "788183e382e3d1d7707db08978239965e8b9e4e5ed42669bf4758186734d5f24" %}
+{% set hash = "93ea72ce6989eb2eed99d0f75721474f69ad88128afdef5ac377eb797c4bf76b" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 
 build:
   noarch: python
-  number: 1
+  number: 0
   preserve_egg_dir: true
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
