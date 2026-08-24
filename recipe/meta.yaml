@@ -1,7 +1,7 @@
 {% set name = "pbr" %}
-{% set version = "7.0.3" %}
+{% set version = "7.1.1" %}
 {% set bundle = "tar.gz" %}
-{% set hash = "b46004ec30a5324672683ec848aed9e8fc500b0d261d40a3229c2d2bbfcedc29" %}
+{% set hash = "973da2aee9961d7cb278aa74e1829f6daafec9dd8ee8c1655cbf3f5843bfe083" %}
 
 package:
   name: {{ name|lower }}
@@ -9,7 +9,7 @@ package:
 
 source:
   fn: {{ name }}-{{ version }}.{{ bundle }}
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ bundle }}
   sha256: {{ hash }}
 
 build:
